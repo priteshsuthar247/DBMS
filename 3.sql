@@ -6,18 +6,12 @@ create table BITS
 select * from BITS;
 
 -- To insert the data.
-insert into BITS values
-("1", "Electronics and Communications Engineering");
-insert into BITS values
-("2", "Information Technology");
-insert into BITS values
-("3", "Computer Science Engineering");
-insert into BITS values
-("4", "Mechanical Engineering");
-insert into BITS values
-("5", "Electrical Engineering");
-insert into BITS values
-("6", "Civil Engineering");
+insert into BITS values ("1", "Electronics and Communications Engineering");
+insert into BITS values ("2", "Information Technology");
+insert into BITS values ("3", "Computer Science Engineering");
+insert into BITS values ("4", "Mechanical Engineering");
+insert into BITS values ("5", "Electrical Engineering");
+insert into BITS values ("6", "Civil Engineering");
 select * from BITS;
 
 -- To alter the table.
