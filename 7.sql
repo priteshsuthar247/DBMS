@@ -1,28 +1,28 @@
--- To create a table.
-create table BITS
-(sr_no int, course varchar(100), intake int);
+-- TO CREATE A TABLE.
+CREATE TABLE BITS
+(SR_NO INT, COURSE VARCHAR(100), INTAKE INT);
 
--- to view the table.
-select * from BITS;
+-- TO VIEW THE TABLE.
+SELECT * FROM BITS;
 
--- To insert the data.
-insert into BITS values ("1", "Electronics and Communications Engineering", "");
-insert into BITS values ("2", "Information Technology", "");
-insert into BITS values ("3", "Computer Science Engineering", "");
-insert into BITS values ("4", "Mechanical Engineering", "");
-insert into BITS values ("5", "Electrical Engineering", "");
-insert into BITS values ("6", "Civil Engineering", "");
-select * from BITS;
+-- TO INSERT THE DATA.
+INSERT INTO BITS VALUES ("1", "Electronics and Communications Engineering", "");
+INSERT INTO BITS VALUES ("2", "Information Technology", "");
+INSERT INTO BITS VALUES ("3", "Computer Science Engineering", "");
+INSERT INTO BITS VALUES ("4", "Mechanical Engineering", "");
+INSERT INTO BITS VALUES ("5", "Electrical Engineering", "");
+INSERT INTO BITS VALUES ("6", "Civil Engineering", "");
+SELECT * FROM BITS;
 
--- To uodate the values
-update BITS set intake = "120" where sr_no = "1";
-update BITS set intake = "120" where sr_no = "2";
-update BITS set intake = "120" where sr_no = "3";
-update BITS set intake = "80" where sr_no = "4";
-update BITS set intake = "60" where sr_no = "5";
-update BITS set intake = "10" where sr_no = "6";
-select * from BITS;
+-- TO UODATE THE VALUES
+UPDATE BITS SET INTAKE = "120" WHERE SR_NO = "1";
+UPDATE BITS SET INTAKE = "120" WHERE SR_NO = "2";
+UPDATE BITS SET INTAKE = "120" WHERE SR_NO = "3";
+UPDATE BITS SET INTAKE = "80" WHERE SR_NO = "4";
+UPDATE BITS SET INTAKE = "60" WHERE SR_NO = "5";
+UPDATE BITS SET INTAKE = "10" WHERE SR_NO = "6";
+SELECT * FROM BITS;
 
--- to delete the rows.
-delete from BITS where sr_no >=4;
-select * from BITS;
+-- TO DELETE THE ROWS.
+DELETE FROM BITS WHERE SR_NO >=4;
+SELECT * FROM BITS;
